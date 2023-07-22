@@ -1,6 +1,6 @@
 'use client'
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const FindReservation = () => {
   const [code, setCode] = useState("");
@@ -8,6 +8,11 @@ const FindReservation = () => {
   const [showAlert, setShowAlert] = useState(false);
 
   const router = useRouter()
+
+  useEffect(() => {
+    console.log(process.env.PROD_URL);
+  }, [])
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
