@@ -12,7 +12,7 @@ export default async function AllUsers() {
         throw new Error("You must be admin to do this!");
       }
 
-      const res = await fetch(`${process.env.PROD_URL}/api/users`, {
+      const res = await fetch('https://table-booker.vercel.app/api/users', {
         headers: {
           'Authorization': `Bearer ${session?.user?.accessToken}` 
         }

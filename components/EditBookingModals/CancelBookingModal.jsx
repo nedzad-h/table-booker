@@ -18,7 +18,7 @@ export default function CancelBookingModal({ booking }) {
         status: 'odbijeno'
       };
   
-      const res = await fetch(`${process.env.PROD_URL}/api/reservations/edit/${booking._id}`, {
+      const res = await fetch(`https://table-booker.vercel.app/api/reservations/edit/${booking._id}`, {
         headers: {
           "Content-Type": 'application/json',
           "Authorization": `Bearer ${session?.user?.accessToken}`

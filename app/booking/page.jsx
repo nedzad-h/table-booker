@@ -26,7 +26,7 @@ const Booking = () => {
     }
 
     try {
-      const res = await fetch(`${process.env.PROD_URL}/api/reservations`, {
+      const res = await fetch('https://table-booker.vercel.app/api/reservations', {
         method: "POST",
         headers: {
           "Content-type": "application/json",

@@ -23,7 +23,7 @@ const FindReservation = () => {
     }
 
     try {
-      const res = await fetch(`${process.env.PROD_URL}/api/reservations/find?code=${code}&email=${email}`, {
+      const res = await fetch(`https://table-booker.vercel.app/api/reservations/find?code=${code}&email=${email}`, {
         cache: "no-store",
       });
 

@@ -2,7 +2,7 @@ import ReservationPreview from "@components/ReservationPreview";
 
 const getReservationById = async (id) => {
   try {
-    const res = await fetch(`${process.env.PROD_URL}/api/reservations/${id}`, {
+    const res = await fetch(`https://table-booker.vercel.app/api/reservations/${id}`, {
       cache: "no-store",
     });
 

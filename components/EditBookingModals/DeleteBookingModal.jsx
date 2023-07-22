@@ -14,7 +14,7 @@ export default function DeleteBookingModal({ booking }) {
   const handleDeleteClick = async () => {
     try {
   
-      const res = await fetch(`${process.env.PROD_URL}/api/reservations/${booking._id}`, {
+      const res = await fetch(`https://table-booker.vercel.app/api/reservations/${booking._id}`, {
         headers: {
           "Content-Type": 'application/json',
           "Authorization": `Bearer ${session?.user?.accessToken}`
