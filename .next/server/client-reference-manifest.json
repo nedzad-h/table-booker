@@ -238,13 +238,13 @@
   },
   "entryCSSFiles": {
     "/Users/nedzadhafizovic/Desktop/table-booker/app/page": [],
+    "/Users/nedzadhafizovic/Desktop/table-booker/app/booking/loading": [],
     "/Users/nedzadhafizovic/Desktop/table-booker/app/layout": [
       "static/css/app/layout.css"
     ],
+    "/Users/nedzadhafizovic/Desktop/table-booker/app/booking/all/loading": [],
     "/Users/nedzadhafizovic/Desktop/table-booker/app/login/page": [],
-    "/Users/nedzadhafizovic/Desktop/table-booker/app/booking/loading": [],
     "/Users/nedzadhafizovic/Desktop/table-booker/app/booking/all/page": [],
-    "/Users/nedzadhafizovic/Desktop/table-booker/app/booking/all/error": [],
-    "/Users/nedzadhafizovic/Desktop/table-booker/app/booking/all/loading": []
+    "/Users/nedzadhafizovic/Desktop/table-booker/app/booking/all/error": []
   }
 }

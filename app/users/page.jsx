@@ -12,7 +12,7 @@ export default async function AllUsers() {
         throw new Error("You must be admin to do this!");
       }
 
-      const res = await fetch("http://localhost:3000/api/users", {
+      const res = await fetch(`${process.env.PROD_URL}/api/users`, {
         headers: {
           'Authorization': `Bearer ${session?.user?.accessToken}` 
         }

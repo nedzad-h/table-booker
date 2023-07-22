@@ -19,7 +19,7 @@ export default function ConfirmBookingModal({ booking }) {
         status: 'potvrdjeno'
       };
   
-      const res = await fetch(`http://localhost:3000/api/reservations/edit/${booking._id}`, {
+      const res = await fetch(`${process.env.PROD_URL}/api/reservations/edit/${booking._id}`, {
         headers: {
           "Content-Type": 'application/json',
           "Authorization": `Bearer ${session?.user?.accessToken}`

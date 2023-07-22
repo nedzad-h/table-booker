@@ -18,7 +18,7 @@ const FindReservation = () => {
     }
 
     try {
-      const res = await fetch(`http://localhost:3000/api/reservations/find?code=${code}&email=${email}`, {
+      const res = await fetch(`${process.env.PROD_URL}/api/reservations/find?code=${code}&email=${email}`, {
         cache: "no-store",
       });
 

@@ -12,7 +12,7 @@ const AllBookingsComponent = ({ date, searchTerm }) => {
   useEffect(() => {
     const getReservations = async () => {
       try {
-        const res = await fetch("http://localhost:3000/api/reservations", {
+        const res = await fetch(`${process.env.PROD_URL}/api/reservations`, {
           headers: {
             'Authorization': `Bearer ${session?.user?.accessToken}` 
           }

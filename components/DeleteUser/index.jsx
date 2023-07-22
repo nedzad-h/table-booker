@@ -9,7 +9,7 @@ const DeleteUser = ({ userId }) => {
   const handleDelete = async () => {
     console.log(session.user);
     try {
-      const res = await fetch(`http://localhost:3000/api/users/${userId}`, {
+      const res = await fetch(`${process.env.PROD_URL}/api/users/${userId}`, {
         headers: {
           'Authorization': `Bearer ${session?.user?.accessToken}`
         },

@@ -2,7 +2,7 @@ import ReservationPreview from "@components/ReservationPreview";
 
 const getReservationById = async (id) => {
   try {
-    const res = await fetch(`http://localhost:3000/api/reservations/${id}`, {
+    const res = await fetch(`${process.env.PROD_URL}/api/reservations/${id}`, {
       cache: "no-store",
     });
 
