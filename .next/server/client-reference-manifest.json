@@ -40,14 +40,6 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./app/login/page.jsx": {
       "*": {
         "id": "(sc_client)/./app/login/page.jsx",
@@ -72,6 +64,14 @@
         "async": false
       }
     },
+    "(app-client)/./app/booking/all/error.jsx": {
+      "*": {
+        "id": "(sc_client)/./app/booking/all/error.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./app/booking/all/page.jsx": {
       "*": {
         "id": "(sc_client)/./app/booking/all/page.jsx",
@@ -80,9 +80,9 @@
         "async": false
       }
     },
-    "(app-client)/./app/booking/all/error.jsx": {
+    "(app-client)/./node_modules/next/dist/client/link.js": {
       "*": {
-        "id": "(sc_client)/./app/booking/all/error.jsx",
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [],
         "async": false
@@ -171,22 +171,6 @@
       ],
       "async": false
     },
-    "/Users/nedzadhafizovic/Desktop/table-booker/node_modules/next/dist/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/nedzadhafizovic/Desktop/table-booker/node_modules/next/dist/esm/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "/Users/nedzadhafizovic/Desktop/table-booker/app/login/page.jsx": {
       "id": "(app-client)/./app/login/page.jsx",
       "name": "*",
@@ -219,6 +203,14 @@
       ],
       "async": false
     },
+    "/Users/nedzadhafizovic/Desktop/table-booker/app/booking/all/error.jsx": {
+      "id": "(app-client)/./app/booking/all/error.jsx",
+      "name": "*",
+      "chunks": [
+        "app/booking/all/error:static/chunks/app/booking/all/error.js"
+      ],
+      "async": false
+    },
     "/Users/nedzadhafizovic/Desktop/table-booker/app/booking/all/page.jsx": {
       "id": "(app-client)/./app/booking/all/page.jsx",
       "name": "*",
@@ -227,24 +219,32 @@
       ],
       "async": false
     },
-    "/Users/nedzadhafizovic/Desktop/table-booker/app/booking/all/error.jsx": {
-      "id": "(app-client)/./app/booking/all/error.jsx",
+    "/Users/nedzadhafizovic/Desktop/table-booker/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/booking/all/error:static/chunks/app/booking/all/error.js"
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/nedzadhafizovic/Desktop/table-booker/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     }
   },
   "entryCSSFiles": {
-    "/Users/nedzadhafizovic/Desktop/table-booker/app/page": [],
     "/Users/nedzadhafizovic/Desktop/table-booker/app/login/page": [],
-    "/Users/nedzadhafizovic/Desktop/table-booker/app/booking/loading": [],
     "/Users/nedzadhafizovic/Desktop/table-booker/app/layout": [
       "static/css/app/layout.css"
     ],
-    "/Users/nedzadhafizovic/Desktop/table-booker/app/booking/all/page": [],
+    "/Users/nedzadhafizovic/Desktop/table-booker/app/booking/loading": [],
     "/Users/nedzadhafizovic/Desktop/table-booker/app/booking/all/error": [],
-    "/Users/nedzadhafizovic/Desktop/table-booker/app/booking/all/loading": []
+    "/Users/nedzadhafizovic/Desktop/table-booker/app/booking/all/loading": [],
+    "/Users/nedzadhafizovic/Desktop/table-booker/app/booking/all/page": [],
+    "/Users/nedzadhafizovic/Desktop/table-booker/app/page": []
   }
 }
