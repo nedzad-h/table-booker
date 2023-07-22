@@ -84,7 +84,7 @@ const AddUser = () => {
             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="role">Uloga:</label>
             <select value={role} onChange={(e) => setRole(e.target.value)} className="block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
               <option value="konobar">Konobar</option>
-              <option value="admin">Administrator</option>
+              <option value="administrator">Administrator</option>
             </select>
           </div>
           <div className="flex justify-center">
