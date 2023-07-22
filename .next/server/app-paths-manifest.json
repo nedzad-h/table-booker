@@ -1,7 +1,4 @@
 {
-  "/page": "app/page.js",
   "/login/page": "app/login/page.js",
-  "/booking/all/page": "app/booking/all/page.js",
-  "/api/reservations/route": "app/api/reservations/route.js",
-  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js"
+  "/booking/all/page": "app/booking/all/page.js"
 }
